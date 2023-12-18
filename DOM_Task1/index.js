@@ -1,0 +1,12 @@
+let id=document.getElementById("main-heading");
+id.textContent="Fruit World";
+id.style.color = "orange";
+var headerDiv = document.getElementById("header");
+headerDiv.style.backgroundColor = "green";
+headerDiv.style.borderBottom = "2px solid orange";
+let id1=document.getElementById("basket-heading");
+id1.style.color="green";
+var id2 = document.getElementById("thanks");
+var p1 = document.createElement("p");
+p1.textContent = "Please visit us again.";
+id2.appendChild(p1);
